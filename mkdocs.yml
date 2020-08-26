@@ -1,0 +1,43 @@
+# Project information
+site_name: Python Course
+site_description: A Full coures in Python
+site_author: Binayak Dasgupta
+site_url: https://python-course.digitalbeans.tech
+
+# Repository
+repo_name: binayakd/python-course
+repo_url: https://github.com/binayakd/python-course
+
+# Copyright
+copyright: Copyright &copy; 2020 Binayak Dasgupta
+
+# Configuration
+theme:
+  name: material
+  icon:
+    logo: material/language-python
+  language: en
+  palette:
+    primary: indigo
+    accent: indigo
+    scheme: slate
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/binayakd
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dasguptabinayak
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
